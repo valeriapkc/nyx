@@ -1,0 +1,516 @@
+.header {
+	background-color: black;
+	
+}
+.header-row {
+	position: relative;
+
+}
+.header-row span {
+	color: #e9168c;
+	position: absolute;
+	cursor: pointer;
+	left: 0;
+	top: 103px;
+	font-family: 'Roboto-regular';
+	font-size: 1.1em;
+}
+.header-row .logo {
+	background-image: url('image/logo.png');
+	width: 320px;
+	height: 240px;
+	cursor: pointer;
+	margin: 0 auto;
+}
+.header-row .search {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 103px;
+}
+.header-row .search input {
+	border-radius: 12px;
+	width: 230px;
+	height: 35px;
+	background-color: black;
+	color: white;
+	border: 1px solid #e9168c;
+	font-family: 'Roboto-regular';
+	padding-left: 15px;
+}
+.header-row .search .loupe {
+    background-image: url('image/loupe.png');
+	width: 15px;
+	height: 16px;
+	display: inline-block;
+	margin-left: -26px;
+	cursor: pointer;
+}
+.header-navigation {
+     background-color: black;
+}
+.header-navigation .navigation-row ul li {
+	display: inline-block;
+}
+.header-navigation .navigation-row ul li a {
+	color: white;
+	cursor: pointer;
+	font-family: 'Roboto-regular';
+	padding-left: 100px;
+}
+.header-navigation .navigation-row ul li a:hover {
+	font-weight: bold;
+	color:  #e9168c;
+}
+.body-slider {
+	background-image: url('https://static.nyxcosmetic.ru/media/cache/fd2c6820d7d512d5e7e5a15d4f852118/media/banner/NYX_ST_1920_460_3.jpg');
+	width: 1349px;
+	height: 460px;
+}
+.slider-row {
+	position: relative;
+}
+.slider-row .arrow-left {
+	border-right: 5px solid #e9168c; 
+    border-bottom: 5px solid #e9168c;
+    height: 40px;
+    width: 40px;
+    transform: rotate(-230deg);
+    position: absolute;
+    top: 230px;
+    cursor: pointer;
+}
+.slider-row .arrow-right {
+	border-right: 5px solid #e9168c; 
+    border-bottom: 5px solid #e9168c;
+    height: 40px;
+    width: 40px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 230px;
+    right: 0;
+    cursor: pointer;
+}
+.body-row {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.body-row h2 {
+	text-align: center;
+	font-family: 'Roboto-regular';
+	margin-bottom: 40px;
+	letter-spacing: 3px;
+}
+.text-body {
+	height: 47px;
+	line-height: 47px;
+}
+.body-row .text-body .image {
+	background-image: url('https://static.nyxcosmetic.ru/skin/frontend/nyx/default/img/advantages/1.png');
+	width: 51px;
+	height: 47px;
+	float: left;
+}
+.body-row .text-body span {
+	font-family: 'Roboto-regular';
+	font-weight: bold;
+	font-size: 1.2em;
+	display: inline-block;
+	padding-left: 15px;
+}
+.body-row .text-body .image2 {
+	background-image: url('https://static.nyxcosmetic.ru/skin/frontend/nyx/default/img/advantages/2.png');
+	width: 38px;
+	height: 47px;
+	float: left;
+}
+.body-row .text-body .image3 {
+	background-image: url('https://static.nyxcosmetic.ru/skin/frontend/nyx/default/img/advantages/3.png');
+	width: 55px;
+	height: 47px;
+	float: left;
+}
+.hits-of-sale .hits-row h2 {
+    font-family: 'Roboto-regular';
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+.hits-row {
+	position: relative;
+	margin-bottom: 40px;
+}
+.hits-row .bloc {
+	cursor: pointer;
+}
+.hits-row .bloc:hover {
+	border:2px solid #e9168c;
+	opacity: 0.4;
+	background-color: pink;
+}
+.hits-row .bloc .img {
+	background-image: url('https://cdn.retailrocket.net/api/1.0/partner/5ae479ff97a525e914a81988/item/800897141172/picture/?format=png&width=200&height=200&scale=both');
+	width: 200px;
+	height: 200px;
+	margin-left: 71px;
+}
+.hits-row .bloc h5 {
+	font-family: 'Roboto-regular';
+	text-align: center;
+	margin-top: 40px;
+	color: black;
+}
+.hits-row .bloc span {
+	font-family: 'Roboto-regular';
+	font-weight: bold;
+	margin-left: 155px;
+}
+.hits-row .bloc .btn {
+	background-color: black;
+	color: white;
+	width: 130px;
+	display: block;
+	margin-left: 103px;
+}
+.hits-row .bloc .img2 {
+    background-image: url('https://cdn.retailrocket.net/api/1.0/partner/5ae479ff97a525e914a81988/item/800897093242/picture/?format=png&width=200&height=200&scale=both');
+    width: 200px;
+    height: 200px;
+    margin-left: 71px;
+}
+.hits-row .bloc .img3 {
+	background-image: url('https://cdn.retailrocket.net/api/1.0/partner/5ae479ff97a525e914a81988/item/800897142902/picture/?format=png&width=200&height=200&scale=both');
+	width: 200px;
+	height: 200px;
+	margin-left: 71px;
+}
+.hits-row .arrow-l {
+	border-right: 5px solid #e9168c; 
+    border-bottom: 5px solid #e9168c;
+    height: 30px;
+    width: 30px;
+    transform: rotate(-230deg);
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+}
+.hits-row .arrow-r {
+	border-right: 5px solid #e9168c; 
+    border-bottom: 5px solid #e9168c;
+    height: 30px;
+    width: 30px;
+    transform: rotate(-45deg);
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    right: 0;
+}
+.hits-row .border {
+	border: 1px solid #ebebeb;
+	margin-top: 40px;
+}
+.body2-row {
+	margin-bottom: 40px;
+}
+.body2-row .img {
+	background-image: url('image/1535_oooo.plus.png');
+	width: 332px;
+	height: 278px;
+	position: relative;
+	cursor: pointer;
+}
+.body2-row .img:hover {
+	background-color: white;
+	opacity: 0.4;
+}
+.body2-row .img2 {
+	background-image: url('image/1536_oooo.plus.png');
+	width: 332px;
+	height: 278px;
+	position: relative;
+	cursor: pointer;
+}
+.body2-row .img3 {
+	background-image: url('image/350_oooo.plus.png');
+	width: 332px;
+	height: 278px;
+	position: relative;
+	cursor: pointer;
+	background-repeat: no-repeat;
+}
+.body2-row .img span {
+	position: absolute;
+	font-family: 'Roboto-regular';
+	font-weight: bold;
+	font-size: 1.5em;
+	color: white;
+	top: 103px;
+	left: 94px;
+	border: 1px solid black;
+	background-color: black;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+}
+.body2-row h2 {
+	font-family: 'Roboto-regular';
+	font-weight: bold;
+	letter-spacing: 5px;
+	margin-top: 40px;
+	text-align: center;
+	color: #e9168c;
+}
+.body2-row p {
+	font-family: 'Roboto-regular';
+	text-align: center;
+	font-size: 1.3em;
+	color: black;
+}
+.body2-row .image4{
+    background-image: url('image/alexandraAnele-Pennywise-300x249.png');
+    width: 300px;
+    height: 249px;
+    border: 5px solid #e9168c;
+    transform: rotate(-15deg);
+}
+.info-text {
+	margin-bottom: 40px;
+}
+.info-text .information-row h6 {
+	font-family: 'Roboto-regular';
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-top: 40px;
+}
+.info-text .information-row p {
+	font-family: 'Roboto-regular';
+	color: black;
+}
+.info-text .information-row p:last-child {
+	margin-bottom: 40px;
+} 
+.info-text .information-row .text {
+	border-top: 2px solid #ebebeb;
+	margin-top: 40px;
+	border-bottom: 2px solid #ebebeb;
+}
+.info-text .information-row .text2 {
+	margin-top: 16px;
+	border-bottom: 2px solid #ebebeb;
+	margin-bottom: 70px;
+}
+.info-text .information-row .text2 a {
+	display: block;
+	color: #e9168c;
+}
+.info-text .information-row .text2 a:last-child {
+	margin-bottom: 16px;
+}
+
+.info-text .information-row .text2 span {
+	font-family: 'Roboto-regular';
+	color: black;
+}
+.footer {
+	background-color: black;
+	padding-bottom: 100px;
+	padding-top: 20px;
+}
+.blog-row {
+	margin-top: 20px;
+}
+.blog-row .visag i {
+    font-size: 2em;
+    color: #e9168c;
+    float: left;
+    margin-right: 15px; 
+}
+.blog-row .visag {
+	cursor: pointer;
+	margin-bottom: 20px;
+	height: 32px;
+	line-height: 32px;
+}
+.blog-row .visag span {
+	font-family: 'Roboto-regular';
+	color: white;
+}
+.blog-row .visag span:hover {
+	color: #e9168c;
+}
+.blog-row .image5 {
+	background-image: url('https://sun1-3.userapi.com/c850036/v850036282/66867/KZce6PvdqGw.jpg');
+	width: 400px;
+	height: 190px;
+	position: relative;	
+	margin-top: 60px;
+}
+.blog-row .image5 span {
+	cursor: pointer;
+	font-family: 'Roboto-regular';
+	color: #e9168c;
+	font-weight: bold;
+	top: 78px;
+	left: 69px;
+	position: absolute;
+	border: 1px solid black;
+	background-color: black;
+
+}
+.blog-row h6 {
+	color: white;
+	font-family: 'Roboto-regular';
+}
+.blog-row h2 {
+	color: white;
+	font-family: 'Roboto-regular';
+}
+.blog-row .email {
+	position: relative;
+}
+.blog-row .email input {
+	padding-left: 15px;
+	color: gray;
+	font-weight: bold;
+	font-family: 'Roboto-regular';
+}
+.blog-row .email span {
+	position: absolute;
+	left: 195px;
+	color: white;
+	font-weight: bold;
+	border: 3px solid #e9168c;
+	background-color: #e9168c;
+	cursor: pointer;
+}
+.blog-row .radio {
+	margin-top: 15px;
+}
+.blog-row .icons i {
+	color: #e9168c;
+	cursor: pointer;	
+}
+.blog-row .icons {
+	font-size: 3em;
+}
+
+.blog-row .radio p {
+	color: white;
+	font-family: 'Roboto-regular';
+}
+.blog-row {
+	border-bottom: 2px solid #ebebeb;
+	padding-bottom: 50px;
+
+}
+.footer2  {
+	background-color: black;
+}
+.footer2 .nav-row h5 {
+	color: white;
+	font-family: 'Roboto-regular';
+	margin-left: 21px;
+}
+.footer2 .nav-row li {
+	color: white;
+	font-family: 'Roboto-regular';
+}
+.nav-row .awards .image6{
+	background-image: url('https://static.nyxcosmetic.ru/skin/frontend/nyx/default/img/awards/1.png');
+	width: 55px;
+	height: 55px;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+.nav-row .awards .image7 {
+	background-image: url('https://static.nyxcosmetic.ru/skin/frontend/nyx/default/img/awards/2.png');
+	width: 55px;
+	height: 55px;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+.nav-row .awards .image8 {
+	background-image: url('https://static.nyxcosmetic.ru/skin/frontend/nyx/default/img/awards/4.png');
+	width: 55px;
+	height: 55px;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+.nav-row .awards .image9 {
+	background-image: url('https://static.nyxcosmetic.ru/skin/frontend/nyx/default/img/awards/5.png');
+	width: 55px;
+	height: 55px;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+.nav-row .awards .image10 {
+	background-image: url('https://static.nyxcosmetic.ru/skin/frontend/nyx/default/img/awards/10.png');
+	width: 55px;
+	height: 55px;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+.nav-row .awards {
+	margin-left: 35px;
+}
+.nav-row .prg p {
+	color: white;
+	font-family: 'Roboto-regular';
+	font-size: 0.9em;
+	margin-left: 19px;
+	margin-top: 27px;
+}
+
+.nav-row .col-lg-4 {
+	border-right: 2px solid #ebebeb;
+	margin-bottom: 30px;
+}
+.nav-row .col-lg-4:last-child {
+	border: none;
+}
+.nav-row {
+	border-bottom: 2px solid #ebebeb;
+}
+.nav-row nav ul li {
+	list-style: none;
+	padding-top: 20px;
+}
+.nav-row nav ul li a:hover {
+	color: #e9168c;
+}
+.nav-row nav ul li a {
+	color: white;
+	font-family: 'Roboto-regular';
+}
+.nav-row .pay {
+	margin-top: 150px;
+}
+.nav-row .pay i {
+	font-size: 5em;
+	color: white;
+	padding-left: 15px;
+}
+.footer3 {
+	background-color: black;
+}
+.footer3 .end-row {
+	padding-top: 15px;
+}
+.footer3 .end-row ul li {
+	list-style: none;
+	display: inline-block;
+}
+.footer3 .end-row ul li a:hover {
+	color: #e9168c;
+}
+.footer3 .end-row ul li a {
+	color: white;
+	font-family: 'Roboto-regular';
+    font-size: 0.6em;
+    padding-left: 5px;
+}
+.footer3 .end-row p {
+	color: white;
+	font-family: 'Roboto-regular';
+	font-size: 0.6em;
+	margin-top: 10px;
+}
